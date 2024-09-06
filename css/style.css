@@ -45,6 +45,14 @@
         height: 340px;
         border: 1px dashed black;
     }
+    .column3{
+        background-color: #d3d3d3;
+        border: 1px dashed black;
+    }
+    .column4{
+    background-color: white;
+    border: 1px dashed black;
+    }
 }
 /* #endregion Debug */
 
@@ -116,4 +124,17 @@ li{
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding:20px;
+}
+.column3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:20px;
+}
+.column4{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:20px;
 }
