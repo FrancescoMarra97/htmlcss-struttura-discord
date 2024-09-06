@@ -18,8 +18,17 @@
     .login{
         background-color: #daa520;
     }
+    .column1{
+        height: 450px;
+    }
+    .c_small{
+        background-color: #ee82ee;
+        width: 300px;
+    }
 }
 /* #endregion Debug */
+
+/* #region header */
 nav{
     display: flex;
     align-items: center;
@@ -62,4 +71,17 @@ li{
     justify-content: center;
     background-color: #daa520;
 }
+/* #endregion header */
+#main-site{
+    height: 600px;
+}
+.column1{
+    background-color: #00008b;
+}
+.c_small{
+    weight: 800px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 
+}
