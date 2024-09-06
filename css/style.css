@@ -90,7 +90,7 @@ li{
 }
 /* #endregion header */
 #main-site{
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
 .column1{
@@ -105,21 +105,15 @@ li{
     width: 55%;
     height: 90%;
 }
-.d-container{
+
+.rect1{
+     width: 60%; 
+}
+.rect2{
+     width: 40%; 
+}
+.column2{
     display: flex;
     justify-content: center;
     align-items: center; 
-}
-
-.rect1{
-    width: 400px;
-}
-.rect2{
-    width: 250px;
-}
-.column2{
-     /* display: flex;
-    justify-content: center;
-    align-items: center;
-  */
 }
