@@ -49,7 +49,11 @@
         background-color: #d3d3d3;
         border: 1px dashed black;
     }
-   
+   .rect3{
+    background-color: #228b22;
+    height: 340px;
+    border: 1px dashed black;
+   }
 /* #endregion Debug */
 
 /* #region header */
@@ -128,4 +132,6 @@ li{
     align-items: center; 
     padding:20px;
 }
- 
+ .rect3{
+    width: 90%;
+ }
