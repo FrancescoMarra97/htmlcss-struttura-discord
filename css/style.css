@@ -49,11 +49,7 @@
         background-color: #d3d3d3;
         border: 1px dashed black;
     }
-    .column4{
-    background-color: white;
-    border: 1px dashed black;
-    }
-}
+   
 /* #endregion Debug */
 
 /* #region header */
@@ -115,10 +111,10 @@ li{
 }
 
 .rect1{
-     width: 60%; 
+     width: 55%; 
 }
 .rect2{
-     width: 40%; 
+     width: 35%;  
 }
 .column2{
     display: flex;
@@ -132,9 +128,4 @@ li{
     align-items: center; 
     padding:20px;
 }
-.column4{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    padding:20px;
-}
+ 
