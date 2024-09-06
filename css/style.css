@@ -54,6 +54,20 @@
     height: 340px;
     border: 1px dashed black;
    }
+   #footer-site{
+    background-color: #23272a;
+    border: 1px dashed white;
+   }
+   .rect4{
+    background-color: #f08080;
+    height: 340px;
+    border: 1px dashed white;
+   }
+   .rect5{
+    background-color: #20b2aa;
+    height: 340px;
+    border: 1px dashed white;
+   }
 /* #endregion Debug */
 
 /* #region header */
@@ -135,3 +149,22 @@ li{
  .rect3{
     width: 90%;
  }
+ /* #region footer */
+  .column4{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding:20px;
+    height: 500px;
+  }
+  .rect4{
+    width: 20%;
+    
+  }
+  .rect5{
+    width: 15%;
+  }
+  .footer-top{
+    border: 1 dashed white;
+  }
+ /* #endregion footer */
