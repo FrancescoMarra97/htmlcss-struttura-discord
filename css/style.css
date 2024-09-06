@@ -38,11 +38,11 @@
     .rect1{
         background-color: #1e90ff;
         border: 1px dashed black;
-        height: 34px;    
+        height: 340px;    
     }
     .rect2{
         background-color:#ffc0cb;
-        height: 34px;
+        height: 340px;
         border: 1px dashed black;
     }
 }
@@ -106,22 +106,20 @@ li{
     height: 90%;
 }
 .d-container{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center; 
 }
 
 .rect1{
     width: 400px;
-    align-items: center;
 }
 .rect2{
     width: 250px;
-    align-items: center;
 }
 .column2{
-     display: flex;
+     /* display: flex;
     justify-content: center;
     align-items: center;
- 
+  */
 }
