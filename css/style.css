@@ -3,15 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed black;
+
 }
 /* #region Debug */
 .debug{
     #header-site{
         background-color: #add8e6;
     }
-    .logo{
+     .logo{
         background-color: #daa520;
+        
     }
     
     .login{
@@ -19,22 +20,42 @@
     }
 }
 /* #endregion Debug */
-.logo{
-    width: 25%;
-}
-.main-menu{
-    width: 100%;
-}
-.login{
-    width: 25%;
-}
-.container {
+nav{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
+li{
+    padding: 0.25rem 0.75rem;
+}
 
+.logo{
+    width: 250px;
+    border: 1px dashed black;
+    padding: 0.25rem 0.75rem;
+}
+.main-menu{
+    width: 700px;
+    border: 1px dashed black;
+    
+}
+.login{
+    width: 250px;
+    border: 1px dashed black;
+    text-align: end;
+    padding: 0.25rem 0.75rem;
+   
+}
 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;    
+}
+
+#header-site{
+    height: 80px;
+}
 .main-menu{
     list-style: none;
     display: flex;
