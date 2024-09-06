@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dashed black;
+}
+/* #region Debug */
+.debug{
+    #header-site{
+        background-color: #add8e6;
+    }
+    .logo{
+        background-color: #daa520;
+    }
+    
+    .login{
+        background-color: #daa520;
+    }
+}
+/* #endregion Debug */
+.logo{
+    width: 25%;
+}
+.main-menu{
+    width: 100%;
+}
+.login{
+    width: 25%;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.main-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #daa520;
+}
+
