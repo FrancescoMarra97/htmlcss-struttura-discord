@@ -68,6 +68,18 @@
     height: 340px;
     border: 1px dashed white;
    }
+   .column5{
+    background-color: #7fffd4;
+   }
+   .rect6{
+    background-color:#7fffd4;
+   }
+   .logo-footer{
+    background-color: #f08080;
+   }
+   .botton-footer{
+    background-color: #f08080;
+   }
 /* #endregion Debug */
 
 /* #region header */
@@ -164,7 +176,27 @@ li{
   .rect5{
     width: 15%;
   }
-  .footer-top{
-    border: 1 dashed white;
+  .footer-bottom{
+    border-top:1px solid white ;
+  }
+  .container5{
+    display: flex;
+    justify-content: space-between;
+  }
+  .rect6{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-footer{
+    margin: 15px 0;
+    border: 1px dashed black;
+    color: black;
+  }
+  .botton-footer{
+    margin: 15px 0;
+    border: 1px dashed black;
+    color: black;
   }
  /* #endregion footer */
