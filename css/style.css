@@ -21,14 +21,28 @@
     
     .login{
         background-color: #daa520;
-        border: 1px dashed black;
+         border: 1px dashed black;
     }
     .column1{
-        height: 250px;
+        height: 350px;
         background-color: #00008b;
     }
     .c_small{
         background-color: #ee82ee;
+        border: 1px dashed black;
+    }
+    .column2{
+        height: 350px;
+        background-color: white;
+    }
+    .rect1{
+        background-color: #1e90ff;
+        border: 1px dashed black;
+        height: 34px;    
+    }
+    .rect2{
+        background-color:#ffc0cb;
+        height: 34px;
         border: 1px dashed black;
     }
 }
@@ -90,5 +104,24 @@ li{
 .c_small{
     width: 55%;
     height: 90%;
-   
+}
+.d-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.rect1{
+    width: 400px;
+    align-items: center;
+}
+.rect2{
+    width: 250px;
+    align-items: center;
+}
+.column2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+ 
 }
