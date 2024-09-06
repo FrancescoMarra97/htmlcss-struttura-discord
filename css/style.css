@@ -7,23 +7,29 @@
 }
 /* #region Debug */
 .debug{
+    .main-menu{
+        border: 1px dashed black;
+    background-color: #daa520;
+    }
     #header-site{
         background-color: #add8e6;
     }
      .logo{
         background-color: #daa520;
-        
+        border: 1px dashed black;
     }
     
     .login{
         background-color: #daa520;
+        border: 1px dashed black;
     }
     .column1{
-        height: 450px;
+        height: 250px;
+        background-color: #00008b;
     }
     .c_small{
         background-color: #ee82ee;
-        width: 300px;
+        border: 1px dashed black;
     }
 }
 /* #endregion Debug */
@@ -39,17 +45,14 @@ li{
 
 .logo{
     width: 250px;
-    border: 1px dashed black;
     padding: 0.25rem 0.75rem;
 }
 .main-menu{
     width: 700px;
-    border: 1px dashed black;
     
 }
 .login{
     width: 250px;
-    border: 1px dashed black;
     text-align: end;
     padding: 0.25rem 0.75rem;
    
@@ -69,7 +72,7 @@ li{
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #daa520;
+    
 }
 /* #endregion header */
 #main-site{
@@ -77,15 +80,15 @@ li{
     width: 100%;
 }
 .column1{
-    background-color: #00008b;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    height: 200px;
+    padding: 10px;
+    height: 300px;
 }
 .c_small{
-    width: 70%;
+    width: 55%;
     height: 90%;
-    border: 1px dashed black;
+   
 }
